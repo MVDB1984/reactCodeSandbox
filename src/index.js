@@ -2,11 +2,12 @@ import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 
 import App from "./App";
+import ChangeUser from "./App";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <StrictMode>
-    <App login="MDVB1984" />
-  </StrictMode>,
+  <>
+    <App login="MVDB1984" />
+  </>,
   rootElement
 );
